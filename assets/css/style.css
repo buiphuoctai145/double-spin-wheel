@@ -1,17 +1,79 @@
-.wheel-label { font-size: 15px; font-weight: 500; color: var(--color-text-primary); }
-  .question-box { min-height: 40px; font-size: 13px; color: var(--color-text-secondary); }
-  .pending-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%;
-    background: #dee2e6; margin-left: 6px; vertical-align: middle; transition: background 0.3s; }
-  .pending-dot.done { background: #198754; }
-  #modal-overlay {
-    display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(0,0,0,0.5); align-items: center; justify-content: center; z-index: 10;
-  }
-  #modal-overlay.show { display: flex; }
-  #modal-box { animation: popIn 0.4s cubic-bezier(0.34,1.56,0.64,1) both; max-width: 340px; width: 90%; }
-  @keyframes popIn {
-    from { transform: scale(0.7); opacity: 0; }
-    to   { transform: scale(1);   opacity: 1; }
-  }
-  #confetti-canvas { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 11; }
-  .spin-hint { font-size: 11px; color: #6c757d; min-height: 18px; }
+.wheel-label {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--color-text-primary);
+}
+
+.question-box {
+    min-height: 40px;
+    font-size: 13px;
+    color: var(--color-text-secondary);
+}
+
+.pending-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #dee2e6;
+    margin-left: 6px;
+    vertical-align: middle;
+    transition: background 0.3s;
+}
+
+.pending-dot.done {
+    background: #198754;
+}
+
+#modal-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+#modal-overlay.show {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#modal-box {
+    animation: popIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+    max-width: 340px;
+    width: 90%;
+}
+
+@keyframes popIn {
+    from {
+        transform: scale(0.7);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+#confetti-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 11;
+}
+
+.spin-hint {
+    font-size: 11px;
+    color: #6c757d;
+    min-height: 18px;
+}

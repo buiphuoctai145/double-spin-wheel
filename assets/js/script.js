@@ -28,6 +28,8 @@ var data2 = [
     { "label": "Lưu Chấn Phát", "value": 0, "question": "Lương Văn Đức" },
     { "label": "Nguyễn Ngọc Trân", "value": 0, "question": "Lương Văn Đức" },
     { "label": "Nguyễn Vũ Huyền Gia", "value": 0, "question": "Lương Văn Đức" },
+    { "label": "Đỗ Văn Linh", "value": 0, "question": "Lương Văn Đức" },
+    { "label": "Trần Dự Thanh Thắng", "value": 0, "question": "Lương Văn Đức" },
 ];
 // round state
 var round = { w1: null, w2: null };
@@ -67,8 +69,8 @@ function showModal(label1, label2) {
 
 function createWheel(svgId, questionId, progressId, hintId, data, wheelKey, linkedKey) {
     var padding = { top: 20, right: 40, bottom: 0, left: 0 },
-        w = 600 - padding.left - padding.right,
-        h = 600 - padding.top - padding.bottom,
+        w = 700 - padding.left - padding.right,
+        h = 700 - padding.top - padding.bottom,
         r = Math.min(w, h) / 2,
         oldrotation = 0,
         spinning = false,
@@ -94,7 +96,7 @@ function createWheel(svgId, questionId, progressId, hintId, data, wheelKey, link
             d.angle = (d.startAngle + d.endAngle) / 2;
             return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")translate(" + (d.outerRadius - 10) + ")";
         })
-        .attr("text-anchor", "end").attr("font-size", "17px").attr("fill", "#fff")
+        .attr("text-anchor", "end").attr("font-size", "20px").attr("fill", "#fff")
         .text(function (d, i) { return data[i].label; });
 
     svg.append("g")
