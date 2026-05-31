@@ -1,10 +1,10 @@
 var data1 = [
     { "label": "Đặng Hoàng Thiện Nhân", "value": 1, "question": "Đặng Hoàng Thiện Nhân" },
-    { "label": "Văn Thương", "value": 2, "question": "Văn Thương" },
+    { "label": "Võ Văn Thương", "value": 2, "question": "Võ Văn Thương" },
     { "label": "Lương Nguyễn Gia Bảo", "value": 3, "question": "Lương Nguyễn Gia Bảo" },
-    { "label": "Nguyễn Đình Phương Trâm", "value": 4, "question": "Nguyễn Đình Phương Trâm" },
+    { "label": "Lê Đình Phương Trâm", "value": 4, "question": "Nguyễn Đình Phương Trâm" },
     { "label": "Phạm Trần Anh Thư", "value": 5, "question": "Phạm Trần Anh Thư" },
-    { "label": "Phạm Thị Khánh Hạ", "value": 6, "question": "Phạm Thị Khánh Hạ" },
+    { "label": "Nguyễn Thị Khánh Hạ", "value": 6, "question": "Phạm Thị Khánh Hạ" },
     { "label": "Bùi Ngọc Uyên Thi", "value": 7, "question": "Bùi Ngọc Uyên Thi" },
     { "label": "Huỳnh Việt Kha", "value": 8, "question": "Huỳnh Việt Kha" },
 ];
@@ -17,6 +17,7 @@ var data2 = [
     { "label": "Bùi Phước Tài", "value": 5, "question": "Bùi Phước Tài" },
     { "label": "Nguyễn Phước Cảnh Tâm", "value": 6, "question": "Nguyễn Phước Cảnh Tâm" },
     { "label": "Nguyễn Thị Thanh Thơm", "value": 7, "question": "Nguyễn Thị Thanh Thơm" },
+    { "label": "Lương Văn Đức", "value": 8, "question": "Lương Văn Đức" },
     { "label": "Huỳnh Thanh Thân", "value": 0, "question": "Lương Văn Đức" },
     { "label": "Trương Ngọc Quỳnh Anh", "value": 0, "question": "Lương Văn Đức" },
     { "label": "Trần Đăng Lộc Phú", "value": 0, "question": "Lương Văn Đức" },
